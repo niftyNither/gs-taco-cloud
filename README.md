@@ -13,3 +13,10 @@ This chapter covers
 * Presenting model data in the browser 
 * Processing and validating form input 
 * Choosing a view template library
+
+## Chapter 3
+
+This chapter covers
+* Using Spring’s JdbcTemplate
+* Inserting data with SimpleJdbcInsert
+* Declaring JPA repositories with Spring Data

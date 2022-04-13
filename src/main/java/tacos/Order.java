@@ -9,8 +9,15 @@ import org.hibernate.validator.constraints.CreditCardNumber;
 
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class Order {
+
+    // add data id, placedAt
+    private Long id;
+
+    private Date placedAt;
 
     //end::allButValidation[]
     @NotBlank(message="Name is required")
